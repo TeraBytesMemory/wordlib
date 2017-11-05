@@ -1,0 +1,4 @@
+export const BEGIN_ANALYZE = 'BEGIN_ANALYZE'
+export const FETCH_KEYWORDS = 'FETCH_KEYWORDS'
+export const ANALYZE_FAILURE = 'ANALYZE_FAILURE'
+export const TOGGLE = 'TOGGLE'
