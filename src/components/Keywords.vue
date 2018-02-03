@@ -1,6 +1,6 @@
 <template lang="html">
   <ul class="wordLibList">
-    <li class="close" @click='close()'>閉じる</li>
+    <li class="wordLibClose" @click='close()'>閉じる</li>
     <li v-for='keyword in keywords'>
       <a :href="href(keyword)" TARGET="_blank">
         {{keyword}}
@@ -46,7 +46,7 @@ export default {
   text-decoration: none;
   color: #ffacac;
 }
-.wordLibList > li.close {
+.wordLibList > li.wordLibClose {
   color: #6060ff;
   cursor: pointer;
 }

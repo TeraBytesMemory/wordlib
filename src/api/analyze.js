@@ -5,7 +5,7 @@ import _ from 'lodash'
 
 const endpoint = 'https://westcentralus.api.cognitive.microsoft.com/text/analytics/v2.0/keyPhrases'
 
-export default function analyze(url) {
+export default function analyze (url) {
   return new Promise((resolve, reject) => {
     scrape(url, (err, article, meta) => {
       if (!err) {
